@@ -13,13 +13,9 @@
 }
 
 /* Sir recommended */
-/* @utility container {
-  margin: auto;
-  --breakpoint-sm: "2rem";
-  --breakpoint-lg: "4rem";
-  --breakpoint-xl: "5rem";
-  --breakpoint-2xl: "6rem";
-} */
+@utility container {
+  @apply px-4 sm:px-8 md:px-12 lg:px-16;
+}
 
 /* @layer components {
   .container {
@@ -48,5 +44,3 @@
   --spacing-xl: "5rem";
   --spacing-2xl: "6rem";
 } */
-
-@apply container bg-[yellow] px-4  sm:px-8 md:px-12 lg:px-16;
