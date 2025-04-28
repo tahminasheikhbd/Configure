@@ -1,0 +1,52 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #de2c4d;
+  --color-secondary: #fb923c;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Averia Serif Libre", serif;
+}
+
+/* Sir recommended */
+/* @utility container {
+  margin: auto;
+  --breakpoint-sm: "2rem";
+  --breakpoint-lg: "4rem";
+  --breakpoint-xl: "5rem";
+  --breakpoint-2xl: "6rem";
+} */
+
+/* @layer components {
+  .container {
+    padding: "5rem";
+  }
+} */
+/* @layer components {
+  .container {
+    --breakpoint--spacing-sm: "2rem";
+    --breakpoint--spacing-lg: "4rem";
+    --breakpoint--spacing-xl: "5rem";
+    --breakpoint--spacing-2xl: "6rem";
+  }
+} */
+
+/* @utility container {
+  --spacing-sm: "2rem";
+  --spacing-lg: "4rem";
+  --spacing-xl: "5rem";
+  --spacing-2xl: "6rem";
+} */
+
+/* @theme {
+  --spacing-sm: "2rem";
+  --spacing-lg: "4rem";
+  --spacing-xl: "5rem";
+  --spacing-2xl: "6rem";
+} */
+
+@apply container bg-[yellow] px-4  sm:px-8 md:px-12 lg:px-16;
